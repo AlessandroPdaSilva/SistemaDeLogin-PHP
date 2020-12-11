@@ -1,0 +1,125 @@
+@charset "uft8";
+
+@charset "utf8";
+*{padding:0;margin:0}
+
+html,body{ box-shadow: border-box;font-family: sans-serif;
+    
+   
+   background-image: url("../imagens/bg2.jpg");
+   background-repeat: no-repeat;
+   background-size: 100vw;
+   background-position: 100% 100%;
+  
+
+   
+}
+@media only screen and (max-width: 1300px) {
+    body {
+      background-color:rgb(255, 102, 0);
+      background-image: none;
+    }
+  } 
+
+/* texto*/
+h1{
+    color:whitesmoke;
+    text-align: center;
+    padding: 1%;
+    
+    font-weight: 800;
+}
+
+a{
+    padding: 2%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+    color: aliceblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+/* formulario */
+input{
+    display: block;
+    width: 100%;
+    height: 8%;
+    margin: 2% 0% 2% 0% ;
+    
+    border-radius: 30px;
+    border:none;
+    font-size: 130%;
+    padding: 5% 7%;
+
+    outline: none;
+}
+
+form{
+    display: block;
+    margin: 0% auto 0% auto;
+    
+}
+
+
+button{
+    display: block;
+    width: 70%;
+    height: 8%;
+    margin: 0% auto 0% auto ;
+    border-radius: 30px;
+    border:none;
+    font-size: 130%;
+    background: rgb(6, 197, 6);
+    cursor: pointer;
+}
+
+
+div#corpo-center{
+    display: block;
+    margin: 20vh auto 0vh auto;
+    width: 35%;
+
+    padding: 2%;
+    background: #27343A;
+    border-radius: 20px;
+    
+}
+
+
+/* footer */
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-size: 140%;
+
+    background: black;
+    display: block;
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+    padding: 1%;
+    bottom: 0;
+
+
+}
+
+div#alert{
+    display: block;
+    padding: 1%;
+    background: rgb(138, 0, 0);
+    width: 50%;
+
+    margin: 0% auto 0% auto;
+    text-align: center;
+    border-radius: 5px;
+
+    color: aliceblue;
+
+}
